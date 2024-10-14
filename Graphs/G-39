@@ -18,6 +18,8 @@ class Solution {
         q.push({0,start});
         dist[start]=0;
         int mod = 100000;
+
+        //Tc - no of edges = 10000*n at worst case
         
         while(!q.empty()){
             auto it = q.front();
